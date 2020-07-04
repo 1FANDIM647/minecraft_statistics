@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" type="text/css" href="stylemain.css">
+   <title>server OSO</title>
+   <meta charset="utf-8" > 
+</head>
+<body>
+  <div class="slider">
+    <div class="item">
+        <img src="img/poster.jpg" alt="Первый слайд">
+        <div class="slideText">MINECRAFT STORE</div>
+    </div>
+
+    <div class="item">
+        <img src="img/cave.png" alt="Второй слайд">
+        <div class="slideText">Заголовок слайда 2</div>
+    </div>
+
+    <a class="prev" onclick="minusSlide()">&#10094;</a>
+    <a class="next" onclick="plusSlide()">&#10095;</a>
+</div>
+<br>
+
+<!--
+<div class="slider-dots">
+  <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+    <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+    <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+</div>
+-->
+  <div class="main-title"> 
+    
+  
+
+  </div>
+ <!--MAIN LINKS ON SITE -->
+  <div class="main-links">
+      
+      <h4><a href="#">Main </a></h4>
+      <h4><a href="#">XBOX</a></h4>
+      <h4><a href="#">PLAYSTATION</a></h4>
+      <h4><a href="#">PC</a></h4>
+      <h4><a href="#">Servers</a></h4>
+
+
+  </div>	
+  
+  <!--Main container -->
+  <div class="container">
+
+  
+  <!-- main block -->
+
+   <div class="block-download">
+   
+
+
+   <h1>Minecraft</h1>
+   <h2>Minecraft is a sandbox video game developed by Mojang Studios.</h2><br>
+   <h2>Created by Markus "Notch" Persson in the Java programming language </h2><br> 
+   <img src ="img/cave.png" width="700 " height="400">
+   <!--button download -->
+   <div id="btn"><span class="noselect">Скачать</span><div id="circle"></div></div>
+   <br>
+   <br>
+   
+   </div>
+   <br>
+
+   <input type="text" id="myinput" size="60"><br><br>
+
+   <button onclick="doIt(myinput.value)">Загрузить </button>
+
+  </div> 
+
+<script src="slider.js"></script> 
+<script src="count.js"></script>
+<script src="list_function.js"></script>
+</body>	
+</html>
